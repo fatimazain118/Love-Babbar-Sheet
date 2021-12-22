@@ -10,8 +10,10 @@ while(t>0)
     int n;
     cin>>n;
     int arr[n];
+    
     for(int i=0;i<n;i++)
         cin>>arr[i];
+        
       for(int i=0,j=n-1;i<j;i++,j--)
         {
              int temp=arr[i];
@@ -26,3 +28,6 @@ while(t>0)
 }
 return 0;
 }
+T.C -- O(N)
+S.C -- O(1)  everything is happening in the input array
+using two pointer approach
